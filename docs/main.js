@@ -885,7 +885,7 @@ __webpack_require__.r(__webpack_exports__);
 class ErgastServiceService {
     constructor(http) {
         this.http = http;
-        this.rootUrl = 'http://ergast.com/api/f1/';
+        this.rootUrl = 'https://ergast.com/api/f1/';
         this.format = '.json';
     }
     getSeasons() {

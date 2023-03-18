@@ -6,7 +6,7 @@ import { MrData, MrDataWrapper } from './objects/MRData';
 })
 export class ErgastServiceService {
 
-  private rootUrl = 'http://ergast.com/api/f1/';
+  private rootUrl = 'https://ergast.com/api/f1/';
   private format = '.json'
   constructor(private http: HttpClient) { }
 
